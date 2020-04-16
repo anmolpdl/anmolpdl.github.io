@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap:
+  exclude: 'yes'
+---
+@charset "utf-8";
+
+/* =Colors */
+$dorian: #E8E8E8;
+$iron: #2A3439;
+$cloudy: #E17259;
+$bluegreen: #0FA3B1; 
+
+@import
+    "mixins",
+    "default",
+    "404"
+;
