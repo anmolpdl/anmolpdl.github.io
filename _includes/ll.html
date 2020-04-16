@@ -1,0 +1,62 @@
+<html>
+<head>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+   
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+   
+ <script type="text/javascript" src="js/leaflet.ajax.min.js">
+ <script src="buffer_dissolved.geojson"></script>
+ <script src="proc_merged.geojson"></script>
+ 
+</head>
+<body>
+<div id="map" style="height:60vh;width:55vw"></div>
+<script>
+	var map = L.map('map').setView([27.703159, 85.320755], 12);
+	L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext}', {
+		attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+		subdomains: 'abcd',
+		minZoom: 0,
+		maxZoom: 20,
+		ext: 'png'
+	}).addTo(map);
+    
+    var myStyle = {
+        "color": "#ff7800",
+        "weight": 5,
+        "opacity": 0.65
+    };
+    
+    function popUp(f,l){
+    var out = [];
+    if (f.properties){
+        for(key in f.properties){
+            out.push(key+": "+f.properties[key]);
+        }
+        l.bindPopup(out.join("<br />"));
+    }
+    }
+    
+    
+    var bufferLayer = new L.GeoJSON.AJAX("buffer_dissolved.geojson", {style: myStyle});
+    var mergedLayer = new L.GeoJSON.AJAX("proc_merged.geojson",{onEachFeature:popUp});
+    //var bufferLayer = new L.GeoJSON.AJAX("buffer_dissolved.geojson", {style: myStyle}).addTo(map);
+    //var mergedLayer = new L.GeoJSON.AJAX("proc_merged.geojson",{onEachFeature:popUp}).addTo(map);
+    
+    var merged = L.layerGroup([bufferLayer]).addTo(map);
+    var buffer = L.layerGroup([mergedLayer]).addTo(map);
+    
+    layers = {
+        "Places" : merged,
+        "Restricted Area" : buffer
+    };
+    
+    L.control.layers(null, layers).addTo(map)
+    //var mergedLayer = new L.GeoJSON.AJAX("proc_merged.geojson", {onEachFeature:onEachFeature}).addTo(map);
+</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 <div id="map" style="height:60vh;width:55vw"></div>
 <script>
 {% if page.leaflet %}
-	var map = L.map('map').setView([27.703159, 85.320755], 13);
+	var map = L.map('map').setView([27.703159, 85.320755], 12);
 	L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext}', {
 		attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 		subdomains: 'abcd',
@@ -9,5 +9,36 @@
 		maxZoom: 20,
 		ext: 'png'
 	}).addTo(map);
+
+	var myStyle = {
+        "color": "#ff7800",
+        "weight": 5,
+        "opacity": 0.65
+	};
+    
+    	function popUp(f,l){
+	var out = [];
+	if (f.properties){
+        	for(key in f.properties){
+            	out.push(key+": "+f.properties[key]);
+        	}
+        	l.bindPopup(out.join("<br />"));
+    	}
+    	}
+    
+    
+	var bufferLayer = new L.GeoJSON.AJAX("{{ site.baseurl }}/assets/geojson/buffer_dissolved.geojson", {style: myStyle});
+    	var mergedLayer = new L.GeoJSON.AJAX("{{ site.baseurl }}/assets/geojson/proc_merged.geojson",{onEachFeature:popUp});
+    
+	var buffer = L.layerGroup([bufferLayer]).addTo(map);
+    	var merged = L.layerGroup([mergedLayer]).addTo(map);  
+
+
+	layers = {
+        	"Restricted Area" : buffer,
+	   	"Places": merged,
+    	};
+    
+    	L.control.layers(null, layers).addTo(map)
 {% endif %}
 </script>
