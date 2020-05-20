@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Lizard, the Camel and Duty Cycles"
-subtitle: ""
+subtitle: "Adding structure to routine tasks"
 date:   2020-05-17 14:22:00
 categories: [reflections]
 ---
