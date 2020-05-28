@@ -1,9 +1,11 @@
 ---
 layout: page
 title: About Me
-subtitle: Who is this guy, anyway?
+subtitle: A little self-indulgence
 permalink: /about/
 ---
+
+![](/assets/images/self-image.jpg)
 
 Once upon a time, inside a country called Nepal, in the shadow of the Himalayas, there was a boy who asked way too many questions, making his parents and teachers mad. Then, as the years went by he stopped asking silly questions. And started asking sillier ones - questions to do with life, death, coffee, semicolons and such.
 
