@@ -10,7 +10,7 @@ In eighth grade, I attended a bizzare workshop that combined memory techniques, 
 
 The workshop began innocuously enough. We were taught a better way to multiply numbers ending in 5 or 0, breathing exercises, and how to tell which day of the week it was from any given AD date. Half of the people around me were middle-aged men, businessmen, taking action to resolve their midlife crisis; they were thrilled with these party tricks.
 
-Then came a section that took a little more time, much more effort. It was a memory technique, and the trainer promised that after two days, if we put in the effort, we would be able to memorize at least a 100 different things, *in order*, within 10 minutes of preparation. Now this, finally, seemed useful to me. No more grappling with subject matter concepts that I would not use for the rest of my life, no sir, I would just use this novel technique (it turns out to have existed at least since ancient Greece) before any exams and get good grades, and get my parents off my back.
+Then came a section that took a little more time, much more effort. It was a memory technique, and the trainer promised that after two days, if we put in the effort, we would be able to memorize at least a 100 different things, *in order*, within 10 minutes of preparation. Now this, finally, seemed useful to me. No more grappling with subject matter concepts that I would not use for the rest of my life, no sir, I would just use this one cool trick teachers didn't want us to know before any exams and get good grades, and get my parents off my back.
 
 The trainer gave us a paper with numbers one to hundred and wanted us to list the people closest to us in sequence. I was thirteen, so after about twenty or so names, I just started filling in the name of classmates. Next, the trainer wanted us to visualize the faces of these people, and the final step would be to associate things we wanted to memorize with these faces.
 
@@ -25,7 +25,7 @@ The next day, before the workshop began, I approached the trainer and explained 
 
 ----
 
-Years later, in 2018, I stumbled upon a term on the Internet. 'Aphantasia' doesn't sound like a real word - rather an invention of magicians, by magicians, for magicians. It is actually a medical term to describe a neurological inability to create voluntary mental images. In simpler words, an aphantasiac cannot does not have a fully-functioning "mind's eye". It also seems to be related to Severely Deficient Autobiographical Memory (SDAM) and about two percent of the people are estimated to have it (for perspective, the same number people in the world with green eyes or those who departed in The Leftovers).
+Years later, in 2018, I stumbled upon a term on the Internet. 'Aphantasia' doesn't sound like a real word - rather an invention of magicians, by magicians, for magicians. It is actually a medical term to describe a neurological inability to create voluntary mental images. In simpler words, an aphantasiac does not have a fully-functioning "mind's eye". It also seems to be related to Severely Deficient Autobiographical Memory (SDAM) and about two percent of the people are estimated to have it (for perspective, the same number people in the world with green eyes or those who departed in The Leftovers).
 
 *I would recommend visiting the aphantasia [network](https://aphantasia.com/), [subreddit](https://old.reddit.com/r/Aphantasia/) or taking the [Vividness of Visual Imagery Quiz](https://aphantasia.com/vviq/) if you suspect you have this condition.*
 
