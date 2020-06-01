@@ -16,3 +16,28 @@ $bluegreen: #0FA3B1;
     "default",
     "404"
 ;
+
+img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+img + strong {
+	margin: 0;
+	display: block;
+	text-align: center;
+	font-style: normal; 
+	font-size: smaller;
+	line-height: normal;
+	color: green;
+}
+
+img + strong + em {
+	margin: 0;
+	display: block;
+	text-align: center;
+	font-style: normal; 
+	font-size: smaller;
+	line-height: normal;
+	color: green;
+}
