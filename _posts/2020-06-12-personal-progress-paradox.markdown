@@ -33,7 +33,7 @@ As many point out, continuous improvement is not a small step, even though it co
 
 Popular culture is full of grandiose gestures and strenuous training montages, and we have been instilled this idea that giant leaps are the way forward. They are exciting, and you feel like you're getting somewhere. Copywriters everywhere love the term 'quantum leap'. This one purchase, this one article, this one person will change you forever, everyone's shouting. These are all short-term feel-good psychological tricks.
 
-But that does not mean taking small steps more frequently is the end-all. Take batching, for example. This is a practice we use frequently, often unconsciously. It reduces the friction of gearing up, physically and mentally. A common example is clearing your inbox, generally better batched for a short burst than spread throughout the day like a camel task. Or if you have ever been on a sprint, you know what I'm talking about. Sometimes, taking leaps is better.
+But that does not mean taking small steps more frequently is the end-all. Take batching, for example. This is a practice we use frequently, often unconsciously. It reduces the friction of gearing up, physically and mentally. A common example is clearing your inbox, generally better batched for a short burst than spread throughout the day like a [camel task]({% link _posts/2020-05-17-duty-cycles.markdown %}). Or if you have ever been on a sprint, you know what I'm talking about. Sometimes, taking leaps is better.
 
 So we can see a sort of divide, although not a dichotomy, between steps and leaps (no quoting Armstrong here).
 
