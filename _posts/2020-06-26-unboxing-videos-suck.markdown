@@ -22,7 +22,7 @@ You open your browser, searching for the next hit.
 
 Recently, I got a new mechanical keyboard, because my laptop's one was failing a few keystrokes. It was driving me mad. One pre-noon, the day of a solar eclipse nonetheless, I walked for twenty minutes to a ramshackle warehouse, which acted as a courier. The keyboard I had ordered from the capital had arrived, but it didn't have my name on it. So I had to spent half an hour simultaneously trying to convince the people there that it was my courier, and trying to figure out the bill number from the seller. That was fun. I walked back in a light rain, finally reached home and proceeded to unravel the package.
 
-Like most of humanity, I have enjoyed the 1444ritual of unboxing through my life. This time too, the experience was pleasurable. But not for long.
+Like most of humanity, I have enjoyed the ritual of unboxing through my life. This time too, the experience was pleasurable. But not for long.
 
 Within minutes of getting the device to work, it seemed yet another aspect of my banal existence. Its RGB extravaganza did not excite me, because I had already seen every single mode of lighting. I did not go over the manual, because I already knew everything there was to know about the device, down to what switches it used (brown) and I had downloaded the software already. I even knew what sound it made!
 
