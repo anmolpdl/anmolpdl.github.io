@@ -9,7 +9,7 @@ sitemap:
 $dorian: #E8E8E8;
 $iron: #2A3439;
 $cloudy: #E17259;
-$bluegreen: #0FA3B1; 
+$bluegreen: #0FA3B1;
 
 @import
     "mixins",
@@ -26,7 +26,7 @@ img + strong {
 	margin: 0;
 	display: block;
 	text-align: center;
-	font-style: normal; 
+	font-style: normal;
 	font-size: smaller;
 	line-height: normal;
 	color: green;
@@ -36,7 +36,7 @@ img + strong + em {
 	margin: 0;
 	display: block;
 	text-align: center;
-	font-style: normal; 
+	font-style: normal;
 	font-size: smaller;
 	line-height: normal;
 	color: green;
@@ -67,4 +67,40 @@ p:first-child:first-letter {
   font-weight: bold;
   float: left;
   line-height: 0.85;
-}  
+}
+
+
+hr {
+    overflow: visible; /* For IE */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: $dorian;
+}
+
+
+#mc_embed_signup {
+    background: $iron;
+}
+
+#mc_embed_signup_scroll > label {
+    color: $dorian;
+}
+
+#mc_embed_signup .button {
+    background-color: $dorian !important;;
+    color: $iron !important;;
+}
