@@ -12,22 +12,22 @@ The courtroom citizens referred to were either yawning or engrossed in their han
 
 Even though it might be a big deal, it didn't make sense not to simply livestream it from the comfort of your home.
 
-*For those of you not following this story, let us recap what has happened so far. The city of Fridsea convicted Alina Emmett, amidst conflicting alibis and witnesses, and gave her twenty seven and a half years in correctional facilities. It has made waves because this ruling was given by the AI  BLNDFLD, a product of Dynamico Inc. Alina has taken this issue to the State's supreme court and all manner of sociopolitcal leaders and celebrities have weighed in. As rapper slash racer Baha Bez was quoted saying, "Stuff too labyrinthian for my little noodle to handle."*
+*For those of you not following this story, let us recap what has happened so far. The city of Fridsea convicted Alina Emmett, amidst conflicting alibis and witnesses, and gave her twenty seven and a half years in correctional facilities. It has made waves because this ruling was given by Dynamico Inc's AI BLNDFLD. Alina has taken this issue to the State's supreme court and all manner of sociopolitcal leaders and celebrities have weighed in. As rapper-racer Baha Bez was quoted saying, "Stuff too labyrinthian for my little noodle to handle."*
 
 The judge called the courtroom to order.
 
-Attorney Fabius put down his handheld and moved to the front, in their sharp suit and immaculate hair. The crowd started murmuring, some shaking their neighbours to alert them. The judge slammed the gavel and called for order.
+Attorney Fabius put down their handheld and moved to the front, in their sharp suit and immaculate hair. The crowd started murmuring, some shaking their neighbours to alert them. The judge slammed the gavel and called for order.
 
 "Citizens! We have wasted enough time with this case already," they, Fabius, began. "It is obvious that the use of an AI judge is faster, and fairer to everyone involved."
 
 "Objection!" Attorney Hussein stood up. He had gray strands in his hair, and his suit, although respectable, looked … lived in. 
 "The model cannot be declared fair - it is a black box model, whose inner workings we are unaware of, and moreover, it is programmed by a for-profit agent, Dynamico."
 
-"Agreed," the judged said. "what do you have to say about this, mis..uh.. Fabius?"
+"Agreed," the judged said. "what do you have to say about this, mis...uh... Fabius?"
 
 "Your honor, a black or white box model means nothing. Nothing. A human judge cannot be expected to be a criminology expert, a psychology major and a statistician simultaneously. If the general populace does not have a clue how a complex white box model works, is it not, de facto, a black box?"
 
-"Moreover, as the prior evidence and witnesses have shown us, the current AI is much better at reducing crime in society."
+"Moreover, as the prior evidence and witnesses have shown us, the current AI is much better at reducing crime in society." They added.
 
 "Yes, Mr. Hussein," the judged nodded, "you have a rebuttal?"
 
